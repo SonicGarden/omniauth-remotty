@@ -18,6 +18,7 @@ module OmniAuth
           :name => raw_info['name'],
           :icon_url => raw_info['icon_url'],
           :room_id => raw_info['room_id'],
+          :room_token => raw_info['room_token'],
           :participation_id => raw_info['participation_id'],
         }
       end
